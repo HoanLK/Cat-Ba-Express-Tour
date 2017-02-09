@@ -57,6 +57,10 @@
     <link href="~/Content/Front/css/DiaDiemDep-ef.css" rel="stylesheet" />
 
     <script src="~/Content/Front/js/modernizr.custom.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
 
     <style>
         .fixed {
@@ -75,7 +79,7 @@
             <!--Giao diện desktop-->
             <div class="desktop hidden-xs hidden-sm col-md-12 col-lg-12">
                 <div class="logo col-md-3 col-lg-3">
-                    <a href="@Url.Action("Index","Home")"><img src="~/Content/Front/images/logo-co.png" class="img-responsive" /></a>
+                    <a href="@Url.Action("Index","Home")"><img src="~/Content/Front/images/logo-co.png" class="img-responsive" id="logo" /></a>
                 </div>
                 <div class="menu-search col-md-9 col-lg-9">
                     <ul class="menu">
@@ -211,7 +215,7 @@
                 <!--Ngày xuất phát-->
                 <div class="ngay pull-left">
                     <label>Ngày xuất phát</label>
-                    <input type="date" class="form-control" />
+                    <input type="text" class="form-control" id="datepicker" placeholder="Chọn ngày đi..." />
                 </div>
 
                 <!--Nút tìm kiếm-->
@@ -389,6 +393,7 @@
     <script src="~/Scripts/Front/searchController.min.js"></script>
     <script src="~/Scripts/Front/showSearchController.min.js"></script>
 
+    <!--Menu di động-->
     <script>
         $(function () {
 
@@ -405,6 +410,59 @@
             $('#dl-menu').dlmenu({
                 animationClasses: { classin: 'dl-animate-in-5', classout: 'dl-animate-out-5' }
             });
+        });
+    </script>
+
+    <!--Datepicker-->
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+
+    <!--Menu desktop-->
+    <script type="text/javascript">
+        $(window).scroll(function () {
+
+            var a = $('.desktop').height();
+            var pos = $(window).scrollTop();
+            if (pos > a) {
+                $(".desktop").css({
+                    background: '#81C784',
+                    transition: 'all .3s ease-in-out',
+                    height: '7.5em',
+                });
+                $('header > .menu > .desktop > .logo').css({
+                    background: 'rgb(255,255,255)',
+                    height: $('.desktop').height(),
+                });
+                $('#logo').css({
+                    width: '9em',
+                    margin: '0 0 0 7em',
+                    transition: 'all .3s ease-in-out'
+                });
+                $('.menu-search').css({
+                    top: '0.5em',
+                    transition: 'all .3s ease-in-out'
+                });
+
+            }
+            else {
+                $(".desktop").css({
+                    background: 'linear-gradient(to top,rgba(0,0,0,0) 0, rgba(0,0,0,.03) 12%, rgba(0,0,0,.16) 39%, rgba(0,0,0,.2) 51%, rgba(0,0,0,.3) 100%)'
+                });
+                $('header > .menu > .desktop > .logo').css({
+                    background: 'transparent',
+                    height: 'auto',
+                });
+                $('#logo').css({
+                    width: '12em',
+                    margin: '0 0 0 10em',
+                });
+                $('.menu-search').css({
+                    top: '2.5em'
+                });
+            }
         });
     </script>
 </body>

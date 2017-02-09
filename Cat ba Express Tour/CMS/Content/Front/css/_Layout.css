@@ -18,15 +18,16 @@ header {
     }
 
         header > .menu > .desktop {
-            position: absolute;
+            position: fixed;
             z-index: 9999;
             padding: 1em;
             background: linear-gradient(to top,rgba(0,0,0,0) 0,rgba(0,0,0,.03) 12%,rgba(0,0,0,.16) 39%,rgba(0,0,0,.2) 51%,rgba(0,0,0,.3) 100%);
-            padding: 1em 0;
+            padding: 0;
         }
 
             /*Logo*/
             header > .menu > .desktop > .logo {
+                padding: 1em 0;
             }
 
                 header > .menu > .desktop > .logo > a {
@@ -34,12 +35,13 @@ header {
 
                     header > .menu > .desktop > .logo > a > img {
                         margin: 0 0 0 10em;
-                        padding: 0 0em;
+                        padding: 0;
                         width: 12em;
                     }
 
             header > .menu > .desktop > .menu-search {
                 top: 2.5em;
+                margin: 1em 0;
                 padding: 0 2em;
             }
 

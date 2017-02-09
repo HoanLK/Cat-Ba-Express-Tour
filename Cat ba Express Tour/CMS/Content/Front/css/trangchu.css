@@ -1,0 +1,652 @@
+/*Trang chủ*/
+.trangchu {
+    padding: 5em 0;
+}
+
+    /*Sologan*/
+    .trangchu > .sologan {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1em;
+        font-size: 2.5em;
+        margin: 1em 0 0 0;
+    }
+
+        .trangchu > .sologan > span {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 0.6em;
+            color: rgb(230, 126, 34);
+        }
+
+    /*Tour du lịch mới*/
+    .trangchu > .tourmoi {
+        padding: 0 1em;
+        margin: 4em 0 0 0;
+    }
+
+        /*Tiêu đề*/
+        .trangchu > .tourmoi > .tieude {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2em;
+            padding: 0 0.5em;
+        }
+
+        /*Danh sách các tour*/
+        .trangchu > .tourmoi > .cactour {
+            padding: 0;
+        }
+
+            /*Từng tour*/
+            .trangchu > .tourmoi > .cactour > .tour {
+                padding: 0;
+                margin: 0 0 2em 0;
+                transition: all .3s ease-in-out;
+                height: 1%;
+                overflow: hidden;
+            }
+
+                /*Ảnh đại diện tour*/
+                .trangchu > .tourmoi > .cactour > .tour > img {
+                    width: 94%;
+                    height: 30em;
+                    margin: 0 auto;
+                }
+
+                /*Thông tin tour*/
+                .trangchu > .tourmoi > .cactour > .tour > .thongtin {
+                    background: rgba(0, 0, 0, .6);
+                    padding: 2.5% 0;
+                    bottom: -15%;
+                    position: absolute;
+                    width: 94%;
+                    left: 3%;
+                    height: 35%;
+                    transition: all .3s ease-in-out;
+                }
+
+                .trangchu > .tourmoi > .cactour > .tour:hover > .thongtin {
+                    bottom: 0;
+                }
+
+                /*Phần chữ*/
+                .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text {
+                    color: rgb(255, 255, 255);
+                    font-size: 1.1em;
+                    height: 50%;
+                    margin: 0 0 2.5% 0;
+                }
+
+                    .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line {
+                        padding: 0;
+                        margin: 0.5em 0;
+                        width: 100%;
+                        height: 1%;
+                        overflow: hidden;
+                        display: table;
+                    }
+
+                        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line > p {
+                            padding: 0;
+                            display: table-cell;
+                            vertical-align: text-bottom;
+                        }
+
+                        /*Tên nước*/
+                        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line > .nuoc {
+                            padding: 0 0 0 1em;
+                        }
+
+                        /*Thời gian đi*/
+                        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line > .thoigian {
+                            text-align: right;
+                            padding: 0 1em 0 0;
+                        }
+
+                        /*Thành phố đi*/
+                        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line > .thanhpho {
+                            text-transform: uppercase;
+                            font-size: 1.2em;
+                            padding: 0 0 0 1em;
+                        }
+
+                        /*Giá tiền*/
+                        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text > .line > .giatien {
+                            text-transform: uppercase;
+                            text-align: right;
+                            padding: 0 1em 0 0;
+                        }
+
+                .trangchu > .tourmoi > .cactour > .tour > .thongtin > .xemthem {
+                    height: 40%;
+                }
+
+                    /*Nút xem thêm*/
+                    .trangchu > .tourmoi > .cactour > .tour > .thongtin > .xemthem > a {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-size: 1.1em;
+                        color: rgb(255, 255, 255);
+                        border: solid 1px rgb(255, 255, 255);
+                        border-radius: 2em;
+                        padding: 0.2em 1.5em;
+                        margin: 0 1em 0 0;
+                        transition: all .3s ease-in-out;
+                        display: block;
+                        top: 0;
+                    }
+
+                .trangchu > .tourmoi > .cactour > .tour:hover > .thongtin > .xemthem {
+                    transition: all .3s ease-in-out;
+                }
+
+                .trangchu > .tourmoi > .cactour > .tour > .thongtin > .xemthem > a:hover {
+                    background: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                }
+
+    /*Địa điểm đẹp*/
+    .trangchu > .diadiemdep-home {
+        padding: 0 0.5em;
+    }
+
+        /*Tiêu đề*/
+        .trangchu > .diadiemdep-home > .tieude {
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            color: rgb(229,57,53);
+            text-shadow: 1px 1px 5px rgba(0,0,0,.25);
+        }
+
+        /*Các địa điểm*/
+        .trangchu > .diadiemdep-home > .cacdiadiem {
+            margin: 1em 0 0 0;
+        }
+
+            /*Địa điểm*/
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem {
+                display: block;
+                float: left;
+                padding: 0.5em;
+            }
+
+                .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a {
+                    text-decoration: none;
+                }
+
+                    /*Ảnh*/
+                    .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > img {
+                        width: 100%;
+                        height: 20em;
+                    }
+
+                    .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > .background {
+                        height: 20em;
+                        top: 0.5em;
+                        position: absolute;
+                        background: rgba(0, 0, 0, .2);
+                        transition: all .3s ease-in-out;
+                    }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-1 > a > .background {
+                width: 98%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-2 > a > .background {
+                width: 98%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-3 > a > .background {
+                width: 97%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-4 > a > .background {
+                width: 97%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-5 > a > .background {
+                width: 97%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-6 > a > .background {
+                width: 98%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .dd-7 > a > .background {
+                width: 98%;
+            }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a:hover > .background {
+                background: rgba(0, 0, 0, .45);
+            }
+
+            /*Thông tin địa điểm*/
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > .thongtin {
+                position: absolute;
+                bottom: 0.5em;
+                right: 1.5em;
+            }
+
+                /*Tên địa điểm*/
+                .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > .thongtin > .ten {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-size: 2em;
+                    color: rgb(255, 255, 255);
+                    transition: all .3s ease-in-out;
+                }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a:hover > .thongtin > .ten {
+                color: rgb(3,169,244);
+            }
+
+    /*Tại sao khách hàng nên chọn chúng tôi*/
+    .trangchu > .taisao {
+        background: url(../images/trangchu/lydo-bg.png) no-repeat;
+        background-size: 100%;
+        padding: 2em 1em 5em 1em;
+        margin: 3em 0 0 0;
+    }
+
+        /*Tiêu đề*/
+        .trangchu > .taisao > .tieude {
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 2em;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+
+        /*Các lý do*/
+        .trangchu > .taisao > .caclydo {
+            height: 1%;
+            margin: 5em 0 0 0;
+        }
+
+            /*Từng lý do*/
+            .trangchu > .taisao > .caclydo > .lydo {
+                height: 40vh;
+                background: rgb(255, 255, 255);
+                width: 20%;
+                margin: 0 2.5%;
+            }
+
+                /*Icon*/
+                .trangchu > .taisao > .caclydo > .lydo > .icon {
+                    display: table;
+                    width: 6em;
+                    height: 6em;
+                    border-radius: 10em;
+                    background: rgb(231, 76, 60);
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    margin: -3em auto;
+                }
+
+                    .trangchu > .taisao > .caclydo > .lydo > .icon > i {
+                        font-size: 3.5em;
+                        vertical-align: middle;
+                        display: table-cell;
+                    }
+
+                /*Phần chữ*/
+                .trangchu > .taisao > .caclydo > .lydo > .text {
+                    margin: 4em 0;
+                }
+
+                    /*Tiêu đề*/
+                    .trangchu > .taisao > .caclydo > .lydo > .text > .tieude {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 1.2em;
+                    }
+
+                    /*Nội dung*/
+                    .trangchu > .taisao > .caclydo > .lydo > .text > .noidung {
+                        text-align: justify;
+                        padding: 0 1em;
+                        color: rgb(100, 100, 100);
+                    }
+
+                /*Nút xem thêm*/
+                .trangchu > .taisao > .caclydo > .lydo > .xemthem {
+                    position: absolute;
+                    font-style: italic;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-align: center;
+                    width: 40%;
+                    left: 30%;
+                    bottom: 0;
+                    margin: 0 0 3em 0;
+                    color: rgb(231, 76, 60);
+                    font-size: 1.1em;
+                    transition: all .3s ease-in-out;
+                }
+
+                    .trangchu > .taisao > .caclydo > .lydo > .xemthem:hover {
+                        font-size: 1.2em;
+                    }
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+    /*Sologan*/
+    .trangchu > .sologan {
+        font-size: 3em;
+    }
+
+    /*Tiêu đề*/
+    .trangchu > .tourmoi > .tieude {
+        font-size: 2.5em;
+    }
+
+    /*Từng tour*/
+    .trangchu > .tourmoi > .cactour > .tour {
+        margin: 0 0 2.5em 0;
+    }
+
+        /*Ảnh đại diện tour*/
+        .trangchu > .tourmoi > .cactour > .tour > img {
+            height: 35em;
+        }
+
+        /*Phần chữ*/
+        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text {
+            font-size: 1.3em;
+        }
+
+        /*Nút xem thêm*/
+        .trangchu > .tourmoi > .cactour > .tour > .thongtin > .xemthem {
+            font-size: 1.3em;
+        }
+
+    /*Tại sao khách hàng nên chọn chúng tôi*/
+    /*Tiêu đề*/
+    .trangchu > .taisao > .tieude {
+        font-size: 3em;
+    }
+
+    /*Các lý do*/
+    .trangchu > .taisao > .caclydo {
+        margin: 8em 0 0 0;
+    }
+
+        /*Icon*/
+        .trangchu > .taisao > .caclydo > .lydo > .icon {
+            width: 8em;
+            height: 8em;
+            margin: -4em auto;
+        }
+
+            .trangchu > .taisao > .caclydo > .lydo > .icon > i {
+                font-size: 4em;
+            }
+
+        /*Phần chữ*/
+        .trangchu > .taisao > .caclydo > .lydo > .text {
+            margin: 7em 0;
+        }
+
+            /*Tiêu đề*/
+            .trangchu > .taisao > .caclydo > .lydo > .text > .tieude {
+                font-size: 1.8em;
+            }
+
+            /*Nội dung*/
+            .trangchu > .taisao > .caclydo > .lydo > .text > .noidung {
+                font-size: 1.3em;
+            }
+
+        /*Nút xem thêm*/
+        .trangchu > .taisao > .caclydo > .lydo > .xemthem {
+            font-size: 1.4em;
+        }
+
+            .trangchu > .taisao > .caclydo > .lydo > .xemthem:hover {
+                font-size: 1.5em;
+            }
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*Phần chữ*/
+    .trangchu > .tourmoi > .cactour > .tour > .thongtin > .text {
+        font-size: 1em;
+    }
+
+    /*Nút xem thêm*/
+    .trangchu > .tourmoi > .cactour > .tour > .thongtin > .xemthem {
+        display: block;
+    }
+
+    /*Tại sao khách hàng nên chọn chúng tôi*/
+    .trangchu > .taisao {
+        background: url(../images/trangchu/lydo-bg.png) no-repeat;
+    }
+
+        /*Từng lý do*/
+        .trangchu > .taisao > .caclydo > .lydo {
+            width: 23%;
+            height: 35vh;
+            margin: 0 1%;
+        }
+
+            /*Tiêu đề*/
+            .trangchu > .taisao > .caclydo > .lydo > .text > .tieude {
+                font-size: 1.1em;
+            }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Nút xem thêm*/
+    .trangchu > .tourmoi > .cactour > .tour > .thongtin{
+        bottom: 0;
+    }
+
+    /*Địa điểm đẹp*/
+    .trangchu > .diadiemdep-home {
+        padding: 0 1em;
+    }
+
+        /*Địa điểm*/
+        .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem {
+            padding: 1em 0;
+        }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > .background {
+                top: 1em;
+            }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-1 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-2 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-3 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-4 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-5 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-6 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-7 > a > .background {
+            width: 100%;
+        }
+
+    /*Tại sao khách hàng nên chọn chúng tôi*/
+    .trangchu > .taisao {
+        background: url(../images/trangchu/lydo-bg.png);
+        padding: 2em 1em 3em 1em;
+    }
+
+        /*Các lý do*/
+        .trangchu > .taisao > .caclydo {
+            height: 1%;
+            margin: 5em 0 0 0;
+        }
+
+            /*Từng lý do*/
+            .trangchu > .taisao > .caclydo > .lydo {
+                height: 30vh;
+                width: 23%;
+                margin: 0 1%;
+            }
+
+                /*Icon*/
+                .trangchu > .taisao > .caclydo > .lydo > .icon {
+                    width: 4em;
+                    height: 4em;
+                    margin: -2em auto;
+                }
+
+                    .trangchu > .taisao > .caclydo > .lydo > .icon > i {
+                        font-size: 2em;
+                    }
+
+                /*Tiêu đề*/
+                .trangchu > .taisao > .caclydo > .lydo > .text > .tieude {
+                    font-size: 1em;
+                }
+
+                /*Nội dung*/
+                .trangchu > .taisao > .caclydo > .lydo > .text > .noidung {
+                    padding: 0 0.5em;
+                }
+
+                /*Nút xem thêm*/
+                .trangchu > .taisao > .caclydo > .lydo > .xemthem {
+                    width: 90%;
+                    left: 5%;
+                    font-size: 1.2em;
+                }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Sologan*/
+    .trangchu > .sologan {
+        font-size: 2.2em;
+    }
+
+        .trangchu > .sologan > span {
+            font-size: 0.5em;
+        }
+
+    /*Nút xem thêm*/
+    .trangchu > .tourmoi > .cactour > .tour > .thongtin {
+        bottom: 0;
+    }
+
+    /*Địa điểm đẹp*/
+    .trangchu > .diadiemdep-home {
+        padding: 0 1em;
+    }
+
+        /*Địa điểm*/
+        .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem {
+            padding: 1em 0;
+        }
+
+            .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a > .background {
+                top: 1em;
+            }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-1 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-2 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-3 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-4 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-5 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-6 > a > .background {
+            width: 100%;
+        }
+
+        .trangchu > .diadiemdep-home > .cacdiadiem > .dd-7 > a > .background {
+            width: 100%;
+        }
+
+    /*Tại sao khách hàng nên chọn chúng tôi*/
+    .trangchu > .taisao {
+        background: url(../images/trangchu/lydo-bg.png);
+        padding: 2em 1em 0em 1em;
+        margin: 3em 0 0 0;
+    }
+
+        /*Từng lý do*/
+        .trangchu > .taisao > .caclydo > .lydo {
+            height: 1%;
+            overflow: hidden;
+            width: 100%;
+            margin: 2em 0;
+            padding: 1em 0 5em 0;
+        }
+
+            /*Icon*/
+            .trangchu > .taisao > .caclydo > .lydo > .icon {
+                width: 7.5em;
+                height: 7.5em;
+                margin: 0em auto;
+            }
+
+                .trangchu > .taisao > .caclydo > .lydo > .icon > i {
+                    font-size: 4em;
+                }
+
+            /*Phần chữ*/
+            .trangchu > .taisao > .caclydo > .lydo > .text {
+                margin: 2em 0;
+            }
+
+                /*Tiêu đề*/
+                .trangchu > .taisao > .caclydo > .lydo > .text > .tieude {
+                    font-size: 1.4em;
+                }
+
+                /*Nội dung*/
+                .trangchu > .taisao > .caclydo > .lydo > .text > .noidung {
+                    text-align: justify;
+                    padding: 0 4em;
+                }
+
+            /*Nút xem thêm*/
+            .trangchu > .taisao > .caclydo > .lydo > .xemthem {
+                bottom: 1em;
+                margin: 0;
+            }
+}

@@ -2268,6 +2268,7 @@
       <DependentUpon>chitiettour.css</DependentUpon>
     </Content>
     <Content Include="Content\Front\css\DanhSachTour.css" />
+    <Content Include="Content\Front\css\DiaDiemDep-ef.css" />
     <Content Include="Content\Front\css\DiaDiemDep.css" />
     <Content Include="Content\Front\css\dichvudulich.css" />
     <Content Include="Content\Front\css\dichvudulich.min.css">

@@ -1,8 +1,9 @@
 ﻿body {
     padding: 0;
+    background: rgb(242, 242, 242);
 }
 
-.row{
+.row {
     margin: 0;
 }
 
@@ -32,6 +33,6 @@ textarea {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display:none;
+    display: none;
     z-index: 9999;
 }

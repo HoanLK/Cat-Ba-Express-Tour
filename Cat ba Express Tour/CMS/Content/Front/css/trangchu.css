@@ -244,6 +244,7 @@
 
             .trangchu > .diadiemdep-home > .cacdiadiem > .diadiem > a:hover > .thongtin > .ten {
                 color: rgb(3,169,244);
+                text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
             }
 
     /*Tại sao khách hàng nên chọn chúng tôi*/
@@ -449,7 +450,7 @@
 /*Giao diện cho tablet (dọc)*/
 @media (min-width: 768px) and (max-width: 991px) {
     /*Nút xem thêm*/
-    .trangchu > .tourmoi > .cactour > .tour > .thongtin{
+    .trangchu > .tourmoi > .cactour > .tour > .thongtin {
         bottom: 0;
     }
 

@@ -49,123 +49,31 @@
         <div class="cacdiadiem col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
             <!--Địa điểm-->
-            <div class="diadiem dd-1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
+            @for (int i = 1; i <= 7; i++)
+            {
+                if (i <= 2 || i > 5)
+                {
+                    <div class="view view-sixth dd-1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="~/Content/Front/images/banner-bg-3.png" />
+                        <div class="mask">
+                            <h3>Cát Bà</h3>
+                            <p>Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời.</p>
+                            <a href="#" class="info">Đọc tiếp</a>
+                        </div>
                     </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-2 col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
+                }
+                else
+                {
+                    <div class="view view-sixth dd-1 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <img src="~/Content/Front/images/banner-bg-3.png" />
+                        <div class="mask">
+                            <h3>Cát Bà</h3>
+                            <p>Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời. Cát bà đẹp tuyệt vời.</p>
+                            <a href="#" class="info">Đọc tiếp</a>
+                        </div>
                     </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-3 col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
-                    </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-4 col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
-                    </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-5 col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
-                    </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-6 col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-                    
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
-                    </div>
-                </a>
-            </div>
-
-            <!--Địa điểm-->
-            <div class="diadiem dd-7 col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <a href="#">
-
-                    <!--Ảnh-->
-                    <img src="~/Content/Front/images/dulich/anhtuour-2.png" alt="" class="img-responsive" />
-
-                    <!--Màu nền-->
-                    <div class="background"></div>
-
-                    <!--Thông tin-->
-                    <div class="thongtin">
-                        <p class="ten">Cát bà</p>
-                    </div>
-                </a>
-            </div>
+                }
+            }
         </div>
     </article>
 

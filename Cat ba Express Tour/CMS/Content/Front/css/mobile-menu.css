@@ -43,17 +43,27 @@
         }
 
             .dl-menuwrapper div .logo {
-                width: 80%;
+                width: 20%;
                 display: block;
                 text-align: center;
                 float: left;
-                font-size: 4em;
-                color: rgb(0, 156, 255);
+                padding: 0.5em 0;
             }
 
                 .dl-menuwrapper div .logo > img {
-                    width: 30%;
+                    width: 80%;
                 }
+
+            .dl-menuwrapper div .phone {
+                font-weight: bold;
+                font-size: 4em;
+                width: 70%;
+                text-align: center;
+                display: inline-block;
+                padding: 0;
+                color: rgb(0, 156, 255);
+                text-decoration: none;
+            }
 
             .dl-menuwrapper div .search {
                 position: absolute;
@@ -92,6 +102,7 @@
         padding: 0.6em 1em;
         border-bottom: solid 2px rgb(0, 156, 255);
         float: left;
+        max-width: none
     }
 
     .dl-menuwrapper button {
@@ -431,14 +442,25 @@ All this is done for any sub-level being entered.
         }
 
             .dl-menuwrapper div .logo {
-                width: 80%;
+                width: 25%;
                 text-align: center;
                 float: left;
             }
 
                 .dl-menuwrapper div .logo > img {
-                    width: 43%;
+                    width: 80%;
                 }
+
+            .dl-menuwrapper div .phone {
+                font-weight: bold;
+                text-decoration: none;
+                display: inline-block;
+                width: 60%;
+                text-align: center;
+                font-size: 2em;
+                padding: 0.2em 0;
+                color: rgb(0, 156, 255);
+            }
 
             .dl-menuwrapper div .search {
                 position: absolute;
@@ -477,6 +499,7 @@ All this is done for any sub-level being entered.
         padding: 0.6em 1em;
         border-bottom: solid 2px rgb(0, 156, 255);
         float: left;
+        max-width: none;
     }
 
     .dl-menuwrapper button {

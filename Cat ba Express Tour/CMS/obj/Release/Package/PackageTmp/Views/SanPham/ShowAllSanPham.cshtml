@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Danh sách tour";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="danhsachtour col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-controller="showAllProductController">
+
+    <!--Tiêu đề-->
+    <p class="tieude col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        Danh sách tour du lịch
+    </p>
+
+    <!--Các tour-->
+    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <!--Danh sách các tour-->
+        <div class="danhsach col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <span us-spinner="{radius:15, width:4, length: 8}"></span>
+            <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-hide="products.length > 0" style="color: #F44336; font-size: 2em; padding-left: 3em;">Đang cập nhật tour</p>
+            <!--Tour-->
+            <div class="tour col-xs-12 col-sm-6 col-md-4 col-lg-4" dir-paginate="(index, value) in products | itemsPerPage:6" ng-show="products.length > 0">
+
+                <!--Ảnh tour-->
+                <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" />
+
+                <!--Thông tin tour-->
+                <div class="thongtintour">
+                    <div class="thongtin col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="tentour">{{value.title}}</p>
+                        <p class="thoigian"><span>Thời gian: </span>{{value.dateNumber}} ngày {{value.nightNumber}} đêm</p>
+                        <p class="gia">{{value.price | number:0}} vnđ</p>
+                    </div>
+                    <div class="xemthem col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <a href="/tour/{{value.alias}}-{{value.idProduct}}">Chi tiết <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Số trang-->
+        <nav aria-label="Page navigation" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <dir-pagination-controls></dir-pagination-controls>
+        </nav>
+    </article>
+</section>

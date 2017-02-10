@@ -9,6 +9,7 @@
 
 /*Header*/
 header {
+    padding: 0 !important;
 }
 
     /*Menu*/
@@ -17,109 +18,122 @@ header {
     }
 
         header > .menu > .desktop {
-            position: absolute;
+            position: fixed;
             z-index: 9999;
             padding: 1em;
             background: linear-gradient(to top,rgba(0,0,0,0) 0,rgba(0,0,0,.03) 12%,rgba(0,0,0,.16) 39%,rgba(0,0,0,.2) 51%,rgba(0,0,0,.3) 100%);
-            padding: 1em 0;
+            padding: 0;
         }
 
             /*Logo*/
             header > .menu > .desktop > .logo {
+                padding: 1em 0;
             }
 
                 header > .menu > .desktop > .logo > a {
                 }
 
                     header > .menu > .desktop > .logo > a > img {
-                        padding: 0 0.5em;
+                        margin: 0 0 0 10em;
+                        padding: 0;
+                        width: 12em;
                     }
 
-            /*Menu*/
-            header > .menu > .desktop > .menu {
-                list-style: none;
-                top: 3em;
-                padding: 0;
+            header > .menu > .desktop > .menu-search {
+                top: 2.5em;
+                margin: 1em 0;
+                padding: 0 2em;
             }
 
-                /*Từng mục*/
-                header > .menu > .desktop > .menu > li {
-                    padding: 0 0.5em;
-                }
-
-                    header > .menu > .desktop > .menu > li > a {
-                        font-size: 1.2em;
-                        color: rgb(255, 255, 255);
-                        text-decoration: none;
-                        font-weight: bold;
-                        border-radius: 2em;
-                        padding: 0 0.6em;
-                        transition: all .3s ease-in-out;
-                        height: 2em;
-                        display: table-cell;
-                        vertical-align: middle;
-                    }
-
-                        header > .menu > .desktop > .menu > li > a:hover {
-                            background: rgb(255, 255, 255);
-                            color: rgb(0, 0, 0);
-                        }
-
-                /*Tìm kiếm*/
-                header > .menu > .desktop > .menu > .search-box {
-                    padding: 0 1em 0 0;
-                }
-
-                    header > .menu > .desktop > .menu > .search-box > input {
-                        width: 10em;
-                        display: none;
-                    }
-
-                header > .menu > .desktop > .menu > .search {
-                    border-left: solid 2px rgb(255, 255, 255);
-                }
-
-                    header > .menu > .desktop > .menu > .search > a {
-                        padding: 0.3em 0.5em;
-                        border-radius: 10em;
-                        cursor: pointer;
-                    }
-
-                        header > .menu > .desktop > .menu > .search > a > i {
-                        }
-
-                /*Điện thoại*/
-                header > .menu > .desktop > .menu > .phone {
+                /*Menu*/
+                header > .menu > .desktop > .menu-search > .menu {
+                    list-style: none;
+                    padding: 0;
+                    height: 1%;
+                    overflow: hidden;
+                    float: right;
                     margin: 0;
                 }
 
-                    header > .menu > .desktop > .menu > .phone > a {
-                        color: rgb(0, 0, 0);
-                        background: rgb(255, 255, 255);
-                        border-radius: 10em;
+                    /*Từng mục*/
+                    header > .menu > .desktop > .menu-search > .menu > li {
+                        padding: 0 0.5em;
                     }
 
-                        header > .menu > .desktop > .menu > .phone > a:hover {
-                            background: rgb(0, 0, 0);
-                        }
-
-                        header > .menu > .desktop > .menu > .phone > a > i {
-                            margin: 0;
-                            display: inline-block;
-                        }
-
-                        header > .menu > .desktop > .menu > .phone > a:hover > i {
+                        header > .menu > .desktop > .menu-search > .menu > li > a {
+                            font-size: 1.2em;
                             color: rgb(255, 255, 255);
+                            text-decoration: none;
+                            font-weight: bold;
+                            border-radius: 2em;
+                            padding: 0 0.6em;
+                            transition: all .3s ease-in-out;
+                            height: 2em;
+                            display: table-cell;
+                            vertical-align: middle;
                         }
 
-                        header > .menu > .desktop > .menu > .phone > a > p {
-                            display: inline-block;
-                            margin: 0 0 0 1em;
+                            header > .menu > .desktop > .menu-search > .menu > li > a:hover {
+                                background: rgb(255, 255, 255);
+                                color: rgb(0, 0, 0);
+                            }
+
+                    /*Tìm kiếm*/
+                    header > .menu > .desktop > .menu-search > .menu > .search-box {
+                        padding: 0 1em 0 0;
+                    }
+
+                        header > .menu > .desktop > .menu-search > .menu > .search-box > input {
+                            width: 10em;
+                            display: none;
                         }
 
-                        header > .menu > .desktop > .menu > .phone > a:hover > p {
-                            color: rgb(255, 255, 255);
+                    header > .menu > .desktop > .menu-search > .menu > .search {
+                        border-left: solid 2px rgb(255, 255, 255);
+                    }
+
+                        header > .menu > .desktop > .menu-search > .menu > .search > a {
+                            padding: 0.3em 0.5em;
+                            border-radius: 10em;
+                            cursor: pointer;
                         }
+
+                            header > .menu > .desktop > .menu-search > .menu > .search > a > i {
+                            }
+
+                    /*Điện thoại*/
+                    header > .menu > .desktop > .menu-search > .menu > .phone {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                        header > .menu > .desktop > .menu-search > .menu > .phone > a {
+                            color: rgb(0, 0, 0);
+                            background: rgb(255, 255, 255);
+                            border-radius: 10em;
+                        }
+
+                            header > .menu > .desktop > .menu-search > .menu > .phone > a:hover {
+                                background: rgb(0, 0, 0);
+                                color: rgb(255, 255, 255);
+                            }
+
+                            header > .menu > .desktop > .menu-search > .menu > .phone > a > i {
+                                margin: 0 0.5em 0 0;
+                                display: inline-block;
+                            }
+
+                header > .menu > .desktop > .menu-search > form {
+                    padding: 0;
+                    margin: 1em 0 0 0;
+                }
+
+                    header > .menu > .desktop > .menu-search > form > input {
+                        float: right;
+                        width: 20em;
+                        height: 2.5em;
+                        display: none;
+                    }
 
     /*Banner*/
     header > .banner {
@@ -271,6 +285,7 @@ header {
 
 /*Footer*/
 footer {
+    padding: 0 !important;
 }
 
     /*Tin tức - Đối tác*/
@@ -366,43 +381,6 @@ footer {
                             font-size: 1.2em;
                         }
 
-            /*Đối tác*/
-            footer > .tt-dt > .opacity > .doitac-khachhang {
-                padding: 0 0 4em 0;
-            }
-
-                footer > .tt-dt > .opacity > .doitac-khachhang > .tieude {
-                    color: rgb(255, 255, 255);
-                    font-size: 2em;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    text-align: center;
-                    padding: 0 1em;
-                }
-
-                footer > .tt-dt > .opacity > .doitac-khachhang > ul {
-                    height: 1%;
-                    overflow: hidden;
-                    background: rgb(255, 255, 255);
-                    padding: 2em 0;
-                    margin: 0;
-                    list-style: none;
-                    width: 96%;
-                    margin-left: 2%;
-                }
-
-                    footer > .tt-dt > .opacity > .doitac-khachhang > ul > li {
-                        vertical-align: middle;
-                        padding: 0 3em;
-                    }
-
-                        footer > .tt-dt > .opacity > .doitac-khachhang > ul > li > a {
-                        }
-
-                            footer > .tt-dt > .opacity > .doitac-khachhang > ul > li > a > img {
-                                margin: 0 auto;
-                            }
-
     /*Thông tin*/
     footer > .footer {
         background: rgb(0, 0, 0);
@@ -415,6 +393,7 @@ footer {
         }
 
             footer > .footer > .logo > img {
+                width: 10em;
             }
 
             footer > .footer > .logo > p {
@@ -439,7 +418,7 @@ footer {
 
             footer > .footer > .thongtin > .chitiet {
                 font-size: 1.2em;
-                padding: 0 5em 0 0;
+                padding: 0;
                 text-align: justify;
             }
 
@@ -580,25 +559,25 @@ footer {
     }
 
         /*Từng mục*/
-        header > .menu > .desktop > .menu > li {
+        header > .menu > .desktop > .menu-search > .menu > li {
             padding: 0 0.1em;
         }
 
-            header > .menu > .desktop > .menu > li > a {
+            header > .menu > .desktop > .menu-search > .menu > li > a {
                 font-size: 1em;
                 padding: 0.2em 0.5em;
             }
 
         /*Điện thoại*/
-        header > .menu > .desktop > .menu > .phone {
+        header > .menu > .desktop > .menu-search > .menu > .phone {
             margin: 0;
         }
 
-            header > .menu > .desktop > .menu > .phone > a {
+            header > .menu > .desktop > .menu-search > .menu > .phone > a {
                 padding: 0.2em 0.5em;
             }
 
-                header > .menu > .desktop > .menu > .phone > a > i {
+                header > .menu > .desktop > .menu-search > .menu > .phone > a > i {
                     margin: 0 0.5em 0 0;
                 }
 
@@ -690,49 +669,10 @@ footer {
 
 /*Giao diện cho tablet (dọc)*/
 @media (min-width: 768px) and (max-width: 991px) {
-    /*Banner*/
-    header > .banner {
-        height: 40vh;
-        padding-top: 80px;
-    }
-
-        header > .banner > .slide {
-            height: 40vh;
-        }
-
-            header > .banner > .slide > .carousel-inner {
-                height: 40vh;
-            }
-
-                header > .banner > .slide > .carousel-inner > .item {
-                    height: 40vh;
-                }
-
-                    header > .banner > .slide > .carousel-inner > .item > .carousel-caption {
-                        width: 90%;
-                        left: 5%;
-                    }
-
-                        header > .banner > .slide > .carousel-inner > .item > .carousel-caption > .nuoc {
-                            font-size: 1.5em;
-                        }
-
-                        header > .banner > .slide > .carousel-inner > .item > .carousel-caption > .vung {
-                            font-size: 3em;
-                        }
-
-                        header > .banner > .slide > .carousel-inner > .item > .carousel-caption > .mieuta {
-                            font-size: 1.2em;
-                        }
-
-            header > .banner > .slide > .carousel-control {
-                margin: 15vh 0;
-            }
-
     /*Tìm tour*/
     header > .timkiem {
         height: 1%;
-        padding: 10em 0 0 0;
+        padding: 4em 0 0 0;
     }
 
         header > .timkiem > form {
@@ -894,7 +834,7 @@ footer {
     /*Đặt vé*/
     header > .timkiem {
         height: 1%;
-        padding: 5em 1em 0 1em;
+        padding: 3em 1em 0 1em;
     }
 
         header > .timkiem > form {

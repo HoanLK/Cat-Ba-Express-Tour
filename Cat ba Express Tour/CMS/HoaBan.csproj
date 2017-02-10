@@ -2361,6 +2361,7 @@
     <Content Include="Content\Images\images\Banner\banner-bg-1.png" />
     <Content Include="Content\Images\images\Banner\banner-bg-2.png" />
     <Content Include="Content\Images\images\Banner\banner-bg-3.png" />
+    <Content Include="Content\Images\images\CatBa\banner-bg-3.png" />
     <Content Include="Content\Images\images\Hải đảo\avt-trongnuoc-4.png" />
     <Content Include="Content\Images\images\Miền bắc\avt-tour-1.png" />
     <Content Include="Content\Images\images\Miền bắc\avt-tour-2.png" />
@@ -2374,6 +2375,7 @@
     <Content Include="Content\Images\_thumbs\Images\Banner\banner-bg-1.png" />
     <Content Include="Content\Images\_thumbs\Images\Banner\banner-bg-2.png" />
     <Content Include="Content\Images\_thumbs\Images\Banner\banner-bg-3.png" />
+    <Content Include="Content\Images\_thumbs\Images\CatBa\banner-bg-3.png" />
     <Content Include="Content\Images\_thumbs\Images\Hải đảo\avt-trongnuoc-4.png" />
     <Content Include="Content\Images\_thumbs\Images\Miền bắc\avt-tour-1.png" />
     <Content Include="Content\Images\_thumbs\Images\Miền bắc\avt-tour-2.png" />
@@ -2951,7 +2953,7 @@
     <Content Include="Views\TimKiem\Index.cshtml" />
     <Content Include="Scripts\front\pagination\README.md" />
     <Content Include="Views\Account\ChangePassword.cshtml" />
-    <None Include="Properties\PublishProfiles\HoaBan.pubxml" />
+    <None Include="Properties\PublishProfiles\CatBa.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

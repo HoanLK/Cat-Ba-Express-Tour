@@ -3,11 +3,24 @@
     $scope.categories = [];
     $scope.category = {};
 
-    $scope.chooseImage = function () {
+    //Chọn ảnh vuông
+    $scope.chooseImageNgang = function () {
         // You can use the "CKFinder" class to render CKFinder in a page:
         var finder = new CKFinder();
         finder.selectActionFunction = function (fileUrl) {
             $scope.post.image = fileUrl;
+            $scope.$apply();
+        };
+        finder.SelectFunction = 'ShowFileInfo';
+        finder.popup();
+    }
+
+    //Chọn ảnh ngang
+    $scope.chooseImage = function () {
+        // You can use the "CKFinder" class to render CKFinder in a page:
+        var finder = new CKFinder();
+        finder.selectActionFunction = function (fileUrlNgang) {
+            $scope.post.imageNgang = fileUrlNgang;
             $scope.$apply();
         };
         finder.SelectFunction = 'ShowFileInfo';
@@ -57,6 +70,7 @@
                     description: data.description,
                     published: data.published,
                     image: data.image,
+                    imageNgang: data.imageNgang,
                     tags: data.tags,
                     version: data.version,
                     deleted: data.deleted,

@@ -103,6 +103,7 @@
           <ScalarProperty Name="deleted" ColumnName="deleted" />
           <ScalarProperty Name="version" ColumnName="version" />
           <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="imageNgang" ColumnName="imageNgang" />
           <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="published" ColumnName="published" />
           <ScalarProperty Name="description" ColumnName="description" />
@@ -131,6 +132,7 @@
           <ScalarProperty Name="deleted" ColumnName="deleted" />
           <ScalarProperty Name="version" ColumnName="version" />
           <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="imageNgang" ColumnName="imageNgang" />
           <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="published" ColumnName="published" />
           <ScalarProperty Name="description" ColumnName="description" />

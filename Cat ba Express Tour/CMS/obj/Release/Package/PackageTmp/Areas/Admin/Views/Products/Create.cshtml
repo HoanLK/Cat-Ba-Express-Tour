@@ -52,34 +52,42 @@
                     <div class="card-body tab-content">
                         <!--Nội dung-->
                         <div class="tab-pane active" id="noidung">
+                            <form class="form col-md-3" role="form">
+                                <div class="form-group">
+                                    <input type="date" class="form-control" id="timeStart" name="timeStart" ng-model="product.timeStart" />
+                                    <label for="timeStart">Ngày khởi hành</label>
+                                </div>
+                            </form>
+                            <form class="form col-md-3" role="form">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="dateNumber" name="dateNumber" ng-model="product.dateNumber" />
+                                    <label for="dateNumber">Ngày</label>
+                                </div>
+                            </form>
+                            <form class="form col-md-3" role="form">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="nightNumber" name="nightNumber" ng-model="product.nightNumber" />
+                                    <label for="nightNumber">Đêm</label>
+                                </div>
+                            </form>
+                            <form class="form col-md-3" role="form">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="price" name="price" ng-model="product.price" />
+                                    <label for="price">Giá</label>
+                                </div>
+                            </form>
+                            
                             <div class="col-md-9">
-                                
                                 Chi tiết Tour
                                 <textarea id="ckeditor" data-ck-editor class="form-control control-12-rows" ng-model="product.content" name="content"></textarea>
                                 <br />
-                                @*Tính năng sản phẩm
-                                <textarea id="ckeditor" data-ck-editor class="form-control control-12-rows" ng-model="product.description" name="description"></textarea>*@
+                                Mô tả tour
+                                <textarea id="ckeditor" data-ck-editor class="form-control control-12-rows" ng-model="product.description" name="description"></textarea>
                             </div>
 
 
                             <div class="col-md-3">
                                 <form class="form" role="form">
-                                    <div class="form-group">
-                                        <input type="date" class="form-control" id="timeStart" name="timeStart" ng-model="product.timeStart" />
-                                        <label for="timeStart">Ngày khởi hành</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="number" class="form-control" id="dateNumber" name="dateNumber" ng-model="product.dateNumber" />
-                                        <label for="dateNumber">Ngày</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="number" class="form-control" id="nightNumber" name="nightNumber" ng-model="product.nightNumber" />
-                                        <label for="nightNumber">Đêm</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="number" class="form-control" id="price" name="price" ng-model="product.price" />
-                                        <label for="price">Giá</label>
-                                    </div>
                                     <div class="form-group ">
                                         <select id="category" name="category"
                                                 ng-model="category"
@@ -107,6 +115,11 @@
                                         <label for="image">Hình ảnh (300 x 300)</label>
                                         <img class="img-responsive" ng-src="{{product.image}}" ng-show="product.image" />
                                     </div>
+                                    @*<div class="form-group">
+                                            <input type="text" name="image" id="image" ng-model="product.imageNgang" class="form-control" /> <button class="btn btn-primary" ng-click="chooseImageNgang()">Chọn ảnh</button>
+                                            <label for="image">Hình ảnh dài (300 x 300)</label>
+                                            <img class="img-responsive" ng-src="{{product.imageNgang}}" ng-show="product.imageNgang" />
+                                        </div>*@
                                     <div class="form-group ">
                                         <textarea name="note" id="note" class="form-control" rows="3" placeholder="" ng-model="product.note"></textarea>
                                         <label for="note">Mô tả</label>

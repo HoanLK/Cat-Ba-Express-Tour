@@ -2567,6 +2567,10 @@
     <Content Include="Scripts\front\kmController.min.js">
       <DependentUpon>kmController.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\front\menumultilevelFactory.js" />
+    <Content Include="Scripts\front\menumultilevelFactory.min.js">
+      <DependentUpon>menumultilevelFactory.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\front\modernizr.custom.min.js">
       <DependentUpon>modernizr.custom.js</DependentUpon>
     </Content>
@@ -2589,6 +2593,10 @@
     <Content Include="Scripts\front\searchController.js" />
     <Content Include="Scripts\front\searchController.min.js">
       <DependentUpon>searchController.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\front\showAllProductController.js" />
+    <Content Include="Scripts\front\showAllProductController.min.js">
+      <DependentUpon>showAllProductController.js</DependentUpon>
     </Content>
     <Content Include="Scripts\front\showSearchController.js" />
     <Content Include="Scripts\front\showSearchController.min.js">
@@ -2955,6 +2963,7 @@
     <Content Include="Views\Home\DanhSachTour.cshtml" />
     <Content Include="Views\Home\DiaDiemDep.cshtml" />
     <Content Include="Views\Home\TinTuc.cshtml" />
+    <Content Include="Views\SanPham\ShowAllSanPham.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

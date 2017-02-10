@@ -132,6 +132,7 @@
     <Property Name="description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
     <Property Name="published" Type="Int32" />
     <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="imageNgang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="version" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="deleted" Type="Int32" />
@@ -163,6 +164,7 @@
     <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="published" Type="Int32" />
     <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="imageNgang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="version" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="deleted" Type="Int32" />

@@ -103,6 +103,7 @@
     <Property Name="description" Type="nvarchar" MaxLength="1000" />
     <Property Name="published" Type="int" />
     <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="imageNgang" Type="nvarchar(max)" />
     <Property Name="tags" Type="nvarchar(max)" />
     <Property Name="version" Type="varchar" MaxLength="50" />
     <Property Name="deleted" Type="int" />
@@ -134,6 +135,7 @@
     <Property Name="description" Type="ntext" />
     <Property Name="published" Type="int" />
     <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="imageNgang" Type="nvarchar(max)" />
     <Property Name="tags" Type="nvarchar(max)" />
     <Property Name="version" Type="varchar" MaxLength="50" />
     <Property Name="deleted" Type="int" />

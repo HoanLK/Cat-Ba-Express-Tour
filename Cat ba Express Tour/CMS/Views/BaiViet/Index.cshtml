@@ -3,18 +3,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="row">
-    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 BaiViet" ng-controller="postController">
+<div class="row" ng-controller="postController">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 BaiViet" style="margin-bottom:1em;">
         <input type="hidden" value="@Model.idPost" id="idPost" />
         <h1 class="TieuDe">{{post.title}}</h1>
-        <p class="text-right"><span>Tác giả: {{post.idUserCreated}}</span>| <span>thời gian: {{post.timeCreated | date:'dd-MM-yyyy HH:mm'}}</span></p>
+        <p class="text-right"><span>Tác giả: {{post.idUserCreated}}</span> | <span>thời gian: {{post.timeCreated | date:'dd-MM-yyyy HH:mm'}}</span></p>
         <div class="NoiDung" ng-bind-html="post.content"></div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 GoiY" ng-controller="showPostController">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 GoiY" style="margin-bottom:1em;">
         <p class="TieuDe">Cùng chuyên mục</p>
         <ul>
             <li ng-repeat="(index, value) in relatedPosts"><span class="fa fa-hand-o-right"></span> <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">{{value.title}}</a></li>
         </ul>
-        <a dir-paginate="(index, value) in category | itemsPerPage:1" href="/danh-muc-bai-viet/{{value.alias}}-{{value.idCategory}}" class="XemTatCaTour">Xem thêm bài viết >></a>
+        <a href="/danh-muc-bai-viet/{{post.alias}}-{{post.idCategory}}" ng-show="relatedPosts.length > 0" class="XemTatCaTour">Xem thêm bài viết >></a>
     </div>
 </div>

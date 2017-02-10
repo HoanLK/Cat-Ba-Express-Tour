@@ -51,6 +51,14 @@
                         <div class="tab-pane active" id="noidung">
                             <div class="col-md-9">
                                 <textarea id="ckeditor" data-ck-editor class="form-control control-12-rows" ng-model="post.content" name="content"></textarea>
+                                <form class="form" role="form">
+                                    <div class="form-group">
+                                        <input type="text" name="imageNgang" id="imageNgang" ng-model="post.imageNgang" class="form-control" /> <button class="btn btn-primary" ng-click="chooseImageNgang()">Chọn ảnh</button>
+                                        <label for="imageNgang">Hình ảnh (750 x 322)</label>
+                                        <img class="img-responsive" ng-src="{{post.imageNgang}}" ng-show="post.imageNgang" />
+                                    </div>
+                                </form>
+
                             </div>
 
                             <div class="col-md-3">
@@ -78,9 +86,10 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="image" id="image" ng-model="post.image" class="form-control" /> <button class="btn btn-primary" ng-click="chooseImage()">Chọn ảnh</button>
-                                        <label for="image">Hình ảnh (548 x 322)</label>
+                                        <label for="image">Hình ảnh (500 x 322)</label>
                                         <img class="img-responsive" ng-src="{{post.image}}" ng-show="post.image" />
                                     </div>
+
                                     <div class="form-group ">
                                         <textarea name="description" id="description" class="form-control" rows="3" placeholder="" ng-model="post.description"></textarea>
                                         <label for="description">Mô tả</label>

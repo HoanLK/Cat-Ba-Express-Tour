@@ -14,9 +14,9 @@ namespace CMS.Controllers
 
         // GET: SanPham
         [Route]
-        public ActionResult EnterNone()
+        public ActionResult ShowAllSanPham()
         {
-            return Redirect("/tour");
+            return View();
         }
 
         [Route("{alias}-{id:int}")]

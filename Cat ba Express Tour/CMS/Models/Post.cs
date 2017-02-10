@@ -27,6 +27,7 @@ namespace CMS.Models
         public string description { get; set; }
         public Nullable<int> published { get; set; }
         public string image { get; set; }
+        public string imageNgang { get; set; }
         public string tags { get; set; }
         public string version { get; set; }
         public Nullable<int> deleted { get; set; }

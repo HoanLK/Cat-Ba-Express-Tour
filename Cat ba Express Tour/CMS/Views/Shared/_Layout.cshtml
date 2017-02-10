@@ -84,9 +84,9 @@
                 <div class="menu-search col-md-9 col-lg-9">
                     <ul class="menu">
                         <li class="pull-left"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
-                        <li class="pull-left"><a href="@Url.Action("DanhSachTour","Home")">Danh sách tour</a></li>
-                        <li class="pull-left"><a href="@Url.Action("DiaDiemDep","Home")">Địa điểm đẹp</a></li>
-                        <li class="pull-left"><a href="@Url.Action("TinTuc","Home")">Tin tức</a></li>
+                        <li class="pull-left"><a href="/tour">Danh sách tour</a></li>
+                        <li class="pull-left"><a href="/danh-muc-bai-viet/dia-diem-dep-2">Địa điểm đẹp</a></li>
+                        <li class="pull-left"><a href="/danh-muc-bai-viet/tin-tuc-3">Tin tức</a></li>
                         <li class="pull-left"><a href="#" data-toggle="modal" data-target="#lienheModal">Liên hệ</a></li>
                         <li class="search pull-left"><a id="btn-search"><i class="fa fa-search"></i></a></li>
                         <li class="phone pull-left"><a href="tel:0948245033"><i class="fa fa-phone"></i>0948-245-033</a></li>
@@ -163,7 +163,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!--Từng ảnh-->
-                    <a class="item active" ng-class="" ng-repeat="(index, value) in banners">
+                    <a href="{{value.link}}" target="_blank" class="item" ng-class="{'active':index==0}" ng-repeat="(index, value) in banners">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" />
                         <div class="carousel-caption">
                             <p class="nuoc">Du lịch</p>
@@ -188,27 +188,24 @@
         </div>
 
         <!--Đặt vé-->
-        <div class="timkiem col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="timkiem col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-controller="searchController">
             <form>
 
                 <!--Loại tour-->
                 <div class="diadiem pull-left">
                     <label>Loại tour</label>
-                    <select class="form-control">
-                        <option selected disabled>Chọn loại tour</option>
-                        <option>Trong nước</option>
-                        <option>Quốc tế</option>
+                    <select class="form-control" id="category" name="category"
+                        ng-model="category"
+                        ng-options="category.name for category in categories track by category.id">
                     </select>
                 </div>
 
                 <!--Tên tour-->
                 <div class="tentour pull-left">
                     <label>Tên tour</label>
-                    <select class="form-control">
+                    <select class="form-control" ng-model="searchText">
                         <option selected disabled>Chọn tour</option>
-                        <option>Hải Phòng - Đà Nẵng</option>
-                        <option>Hà Nội - Hạ Long</option>
-                        <option>Hồ Chí Minh - Sapa</option>
+                        <option ng-repeat="(index, value) in tours">{{value.title}}</option>
                     </select>
                 </div>
 
@@ -220,7 +217,7 @@
 
                 <!--Nút tìm kiếm-->
                 <div class="timkiem-btn pull-left">
-                    <button>Tìm kiếm</button>
+                    <button ng-click="search()">Tìm kiếm</button>
                 </div>
             </form>
         </div>
@@ -327,7 +324,7 @@
     @*<script src="~/Scripts/angular-sanitize.min.js"></script>*@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.js"></script>
     <script src="~/Scripts/angular-cookies.min.js"></script>
-
+    
     <!--Message-->
     <script src="~/Content/admin/js/libs/toastr/toastr.min.js"></script>
     <script>
@@ -350,6 +347,9 @@
     <script src="~/Scripts/loading-spinner/spin.min.js"></script>
     <script src="~/Scripts/loading-spinner/angular-spinner.min.js"></script>
     <script src="~/Scripts/loading-spinner/angular-loading-spinner.js"></script>
+
+    <!--menumultilevel-->
+    <script src="~/Scripts/front/menumultilevelFactory.min.js"></script>
 
     <!--Home-->
     <script src="~/Scripts/front/homeController.min.js"></script>
@@ -376,6 +376,7 @@
 
     <!--Product-->
     <script src="~/Scripts/Front/productController.min.js"></script>
+    <script src="~/Scripts/front/showAllProductController.min.js"></script>
 
     <!--Search-->
     <script src="~/Scripts/Front/searchController.min.js"></script>

@@ -616,5 +616,17 @@
     "inputFiles": [
       "Scripts/front/kmController.js"
     ]
+  },
+  {
+    "outputFileName": "Scripts/front/showAllProductController.min.js",
+    "inputFiles": [
+      "Scripts/front/showAllProductController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/menumultilevelFactory.min.js",
+    "inputFiles": [
+      "Scripts/front/menumultilevelFactory.js"
+    ]
   }
 ]

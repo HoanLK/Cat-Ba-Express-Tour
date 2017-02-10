@@ -67,6 +67,15 @@ namespace CMS.Areas.Admin.Controllers
                 return model;
             }
 
+            //Địa điểm đẹp
+            if (att == "diaDiemDepHome" && att != null && value != null)
+            {
+                int num = int.Parse(value);
+                var model = db.Post.Where(p => p.featured==1 && p.published == 1 && p.idCategory==2).OrderByDescending(p => p.timeModified).Take(num);
+
+                return model;
+            }
+
             return post;
         }
 

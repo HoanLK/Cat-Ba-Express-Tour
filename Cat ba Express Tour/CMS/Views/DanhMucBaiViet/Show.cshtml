@@ -3,23 +3,40 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="row Visa_ThueXe" ng-controller="categoryPostController">
-    <p class="TieuDe">@Model.title</p>
-    <p class="TieuDe">----------------------------------</p>
+<section class="diadiemdep col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-controller="categoryPostController">
     <input type="hidden" value="@Model.idCategory" id="idCategory" />
-    <p ng-hide="posts.length > 0" style="font-size: 3em;color: #f44336; text-align:center">Chưa có bài viết nào</p>
-    <div dir-paginate="(index, value) in posts | itemsPerPage: 8" ng-show="posts.length > 0">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <img class="img-responsive anh" ng-src="{{value.image}}" title="{{value.title}}" alt="{{value.title}}" />
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="padding:1em;">
-                <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="TieuDe"><h4 style="display:inline; font-size:inherit; font-weight:inherit">{{value.title}}</h4></a>
-                <p class="GioiThieu">
-                    {{value.description | limitTo: 100}}{{value.description.length > 100 ? '&hellip;' : ''}}
-                </p>
+    <!--Tiêu đề-->
+    <p class="tieude col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        @Model.title
+    </p>
+    
+    <!--Các bài viết-->
+    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <!--Phần chính-->
+        <div class="cacbaiviet col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p ng-hide="posts.length > 0" style="font-size: 3em;color: #f44336; text-align:center">Chưa có bài viết nào</p>
+            <!--Bài viết-->
+            <div class="baiviet" dir-paginate="(index, value) in posts | itemsPerPage: 4" ng-show="posts.length > 0">
+                <!--Ảnh địa điểm-->
+                <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" />
+
+                <!--Thông tin-->
+                <div class="thongtin">
+                    <p class="tieude col-xs-12 col-sm-12 col-md-12 col-lg-12">{{value.title}}</p>
+                    <p class="tomtat col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        {{value.description | limitTo: 100}}{{value.description.length > 100 ? '&hellip;' : ''}}
+                    </p>
+
+                    <!--Nút xem thêm-->
+                    <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="xemthem">Xem thêm <i class="fa fa-angle-double-right"></i></a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ccontainer" style="text-align:center"><dir-pagination-controls></dir-pagination-controls></div>
-</div>
+
+        <!--Số trang-->
+        <nav aria-label="Page navigation" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <dir-pagination-controls></dir-pagination-controls>
+        </nav>
+    </article>
+</section>

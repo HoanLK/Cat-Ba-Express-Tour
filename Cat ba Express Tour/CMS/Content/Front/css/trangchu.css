@@ -560,6 +560,10 @@
         bottom: 0;
     }
 
+    .trangchu > .tourmoi > .cactour > .tour > img{
+        height:22em;
+    }
+
     /*Địa điểm đẹp*/
     .trangchu > .diadiemdep-home {
         padding: 0 1em;

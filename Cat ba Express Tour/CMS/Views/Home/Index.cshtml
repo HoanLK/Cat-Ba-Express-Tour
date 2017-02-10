@@ -50,12 +50,22 @@
             <span us-spinner="{radius:15, width:4, length: 8}"></span>
             <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-hide="diaDiemDeps.length > 0" style="color: #F44336; font-size: 2em; padding-left: 3em;">Đang cập nhật địa điểm đẹp</p>
             <div class="view view-sixth dd-1 col-xs-12 col-sm-12 " ng-class="{'col-md-6 col-lg-6':(index < 2 || index >= 5),'col-md-4 col-lg-4':(index >= 2 && index < 5)}" ng-repeat="(index, value) in diaDiemDeps" ng-show="diaDiemDeps.length > 0">
-                <img ng-src="{{value.image}}" alt="{{value.title}}" ng-hide="index < 2||index >= 5"/>
-                <img ng-src="{{value.imageNgang}}" alt="{{value.title}}" ng-show="index < 2||index >= 5"/>
-                <div class="mask">
-                    <h3>{{value.title}}</h3>
-                    <p>{{value.description}}</p>
-                    <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="info">Đọc tiếp</a>
+                <div class="visible-md visible-lg">
+                    <img ng-src="{{value.image}}" alt="{{value.title}}" ng-hide="index < 2||index >= 5" />
+                    <img ng-src="{{value.imageNgang}}" alt="{{value.title}}" ng-show="index < 2||index >= 5" />
+                    <div class="mask">
+                        <h3>{{value.title}}</h3>
+                        <p>{{value.description}}</p>
+                        <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="info">Đọc tiếp</a>
+                    </div>
+                </div>
+                <div class="visible-sm visible-xs">
+                    <img ng-src="{{value.image}}" alt="{{value.title}}" />
+                    <div class="mask">
+                        <h3>{{value.title}}</h3>
+                        <p>{{value.description}}</p>
+                        <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="info">Đọc tiếp</a>
+                    </div>
                 </div>
             </div>
 

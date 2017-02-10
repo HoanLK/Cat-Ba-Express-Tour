@@ -70,7 +70,7 @@
             z-index: 1;
         }
 
-        .shadow{
+        .shadow {
             box-shadow: 0px 2px 5px rgba(0,0,0,.5);
         }
     </style>
@@ -112,9 +112,9 @@
                     </div>
                     <ul class="dl-menu" ng-controller="searchController">
                         <li><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
-                        <li><a href="@Url.Action("DanhSachTour","Home")">Danh sách tour</a></li>
-                        <li><a href="@Url.Action("DiaDiemDep","Home")">Địa điểm đẹp</a></li>
-                        <li><a href="@Url.Action("TinTuc","Home")">Tin tức</a></li>
+                        <li><a href="/tour">Danh sách tour</a></li>
+                        <li><a href="/danh-muc-bai-viet/dia-diem-dep-2">Địa điểm đẹp</a></li>
+                        <li><a href="/danh-muc-bai-viet/tin-tuc-3">Tin tức</a></li>
                         <li><a href="/lien-he">Liên hệ</a></li>
                         <li><a href="tel:0313999999"><i class="fa fa-phone"></i>0313-999-999</a></li>
                     </ul>
@@ -200,9 +200,8 @@
                 <div class="diadiem pull-left">
                     <label>Loại tour</label>
                     <select class="form-control" id="category" name="category"
-                        ng-model="category"
-                        ng-options="category.name for category in categories track by category.id">
-                    </select>
+                            ng-model="category"
+                            ng-options="category.name for category in categories track by category.id"></select>
                 </div>
 
                 <!--Tên tour-->
@@ -329,7 +328,7 @@
     @*<script src="~/Scripts/angular-sanitize.min.js"></script>*@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.js"></script>
     <script src="~/Scripts/angular-cookies.min.js"></script>
-    
+
     <!--Message-->
     <script src="~/Content/admin/js/libs/toastr/toastr.min.js"></script>
     <script>
@@ -442,7 +441,7 @@
                 $('header > .menu > .desktop > .logo').css({
                     background: 'rgb(255,255,255)',
                     height: $('.desktop').height(),
-                    padding:'0.3em 0',
+                    padding: '0.3em 0',
                 });
                 $('#logo').css({
                     width: '5.5em',
@@ -474,6 +473,12 @@
                 });
             }
         });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = $(window).width();
+        }
     </script>
 </body>
 </html>

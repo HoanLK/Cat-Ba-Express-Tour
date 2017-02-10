@@ -18,10 +18,10 @@
     $http.get('/API/PostsAPI?att=diaDiemDepHome&&value=7')
        .success(function (data) {
            //Giới hạn ký tự cho Mô tả
-           //angular.forEach(products, function (valueProduct, indexProduct) {
-           //    valueProduct.description = (valueProduct.description.length > 105) ? CutString(valueProduct.description, 110) : valueProduct.description;
-           //});
-           $scope.diaDiemDeps = data;
+           angular.forEach(data, function (valuePost, indexPost) {
+               valuePost.description = (valuePost.description.length > 105) ? CutString(valuePost.description, 110) : valuePost.description;
+           });
+           $scope.diaDiemDeps = angular.copy(data);
        });
 
 

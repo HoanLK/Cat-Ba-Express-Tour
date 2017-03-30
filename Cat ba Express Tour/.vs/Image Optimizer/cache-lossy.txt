@@ -88,3 +88,88 @@ D:\Project\KNT\HoaBanCode\CMS\Content\Images\images\Banner\banner-bg-3.png|43847
 D:\Project\KNT\HoaBanCode\CMS\Content\Images\images\Hải đảo\avt-trongnuoc-4.png|254113
 D:\Project\KNT\HoaBanCode\CMS\Content\Images\images\Miền bắc\avt-tour-1.png|388665
 D:\Project\KNT\HoaBanCode\CMS\Content\Images\images\Miền bắc\avt-tour-2.png|122533
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\avt-baiviet-1.png|105573
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\avt-baiviet-2.png|74148
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\doitac-5.png|16047
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\avt-baiviet-3.png|61275
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\avt-baiviet-4.png|56144
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-6.png|307190
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\anhtuour-4.png|356970
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\footer-bg.png|788158
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\lydo-bg.png|247970
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourquocte-1.png|30275
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourquocte-2.png|104887
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourquocte-3.png|27040
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourquocte-4.png|30589
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dichvu\banner-bg.png|454775
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourquocte-bg.png|634306
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourtrongnuoc-1.png|108735
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourtrongnuoc-2.png|27813
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\banner-bg-1.png|2375162
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourtrongnuoc-3.png|87781
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\anhtuour-5.png|1691382
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dichvu\hochieu-bg.png|241953
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourtrongnuoc-4.png|115446
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\avt-trongnuoc-1.png|90754
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\avt-trongnuoc-2.png|81659
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\avt-trongnuoc-3.png|274157
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\tourtrongnuoc-bg.png|432487
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\doitac-1.png|17870
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\doitac-2.png|3153
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\doitac-4.png|6360
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\avt-trongnuoc-4.png|254113
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\banner-bg-2.png|417016
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dichvu\khachsan-bg.png|903296
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-1.png|388665
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-2.png|122533
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\banner-bg-3.png|438475
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dichvu\vetau-bg.png|1004389
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dichvu\thuexe-bg.png|160843
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-3.png|430484
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-4.png|63671
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\trangchu\avt-tour-5.png|82237
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\anhtuour-1.png|2131056
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\anhtuour-2.png|423798
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Front\images\dulich\anhtuour-3.png|404965
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\tour\phòng ăn 06.JPG|3569
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Banner\banner-bg-1.png|4953
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Banner\banner-bg-2.png|2992
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Banner\banner-bg-3.png|3947
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\tour\phòng ăn 06.JPG|375853
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Hß║úi ─æß║úo\avt-trongnuoc-4.png|17200
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Tin khuyen mai\avt-baiviet-4.png|4465
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Hải đảo\avt-trongnuoc-4.png|17200
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miß╗ün bß║»c\avt-tour-1.png|18260
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miß╗ün bß║»c\avt-tour-2.png|19714
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miß╗ün bß║»c\avt-trongnuoc-1.png|18970
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miß╗ün nam\avt-trongnuoc-3.png|17209
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miß╗ün trung\avt-trongnuoc-2.png|17661
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miền bắc\avt-tour-1.png|18260
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miền bắc\avt-tour-2.png|19714
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miền bắc\avt-trongnuoc-1.png|18970
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miền nam\avt-trongnuoc-3.png|17209
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Miền trung\avt-trongnuoc-2.png|17661
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền nam\avt-trongnuoc-3.png|274157
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Tin khuyen mai\avt-baiviet-1.png|6669
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Tin khuyen mai\avt-baiviet-2.png|5185
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\Tin khuyen mai\avt-baiviet-3.png|4019
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền trung\avt-trongnuoc-2.png|81659
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Tin khuyen mai\avt-baiviet-1.png|105573
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Tin khuyen mai\avt-baiviet-2.png|74148
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Tin khuyen mai\avt-baiviet-3.png|61275
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Banner\banner-bg-2.png|417016
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Tin khuyen mai\avt-baiviet-4.png|56144
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Banner\banner-bg-3.png|438475
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Banner\banner-bg-1.png|2375162
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\CatBa\avt-trongnuoc-4.png|254113
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\CatBa\banner-bg-3.png|438475
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Hß║úi ─æß║úo\avt-trongnuoc-4.png|254113
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Hải đảo\avt-trongnuoc-4.png|254113
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miß╗ün bß║»c\avt-tour-1.png|388665
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miß╗ün bß║»c\avt-tour-2.png|122533
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miß╗ün bß║»c\avt-trongnuoc-1.png|90754
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miß╗ün nam\avt-trongnuoc-3.png|274157
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miß╗ün trung\avt-trongnuoc-2.png|81659
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-tour-1.png|388665
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-tour-2.png|122533
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-trongnuoc-1.png|90754

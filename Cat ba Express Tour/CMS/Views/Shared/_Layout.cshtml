@@ -79,6 +79,8 @@
     <!--Menu-->
     <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+        <div id="google_translate_element" style="position:absolute; z-index:99999; right:2%;"></div>
+
         <!--Menu-->
         <div class="menu col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <!--Giao diện desktop-->
@@ -139,7 +141,7 @@
                             </div>
 
                             <div class="col-md-4">
-                                <h2>CatBa Express Tour</h2>
+                                <h2>CatBa mystery</h2>
                                 <address>
                                     <div class="address">
                                         <p>Địa chỉ: 183-184 Một tháng tư, Cát Bà, Hải Phòng, Việt Nam</p>
@@ -280,8 +282,8 @@
             <!--Thông tin-->
             <div class="thongtin col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p class="tieude">Thông tin liên hệ</p>
-                <p class="chitiet"><i class="fa fa-map-marker"></i>183-184, 1/4 Road - Cat Ba island - Hai Phong - Viet Nam</p>
-                <p class="chitiet"><i class="fa fa-mobile"></i>(+84)948245033 - (+84)97282266</p>
+                <p class="chitiet"><i class="fa fa-map-marker"></i>181, 1/4 Road - Cat Ba island - Hai Phong - Viet Nam</p>
+                <p class="chitiet"><i class="fa fa-mobile"></i>(+84)948245033 - (+84)972822661</p>
                 @*<p class="chitiet"><i class="fa fa-phone"></i>0313-999-999</p>*@
                 <p class="chitiet"><i class="fa fa-envelope-o"></i>quyenlee2505@gmail.com</p>
                 <p class="chitiet"><i class="fa fa-globe"></i>website.com</p>
@@ -312,6 +314,7 @@
             <div class="pull-right"><p>&copy; Design by </p><a href="http://ketnoitrejsc.com/" target="_blank">Kết nối trẻ JSC</a></div>
         </div>
     </footer>
+
 
     @RenderSection("scripts", required: false)
     <!--jquery-->
@@ -397,6 +400,15 @@
     <!--Search-->
     <script src="~/Scripts/Front/searchController.min.js"></script>
     <script src="~/Scripts/Front/showSearchController.min.js"></script>
+
+    <!--Translate-->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'vi', includedLanguages: 'en,vi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
     <!--Menu di động-->
     <script>

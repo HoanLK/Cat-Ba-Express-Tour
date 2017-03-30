@@ -455,6 +455,7 @@ footer {
 
         footer > .social > ul {
             list-style: none;
+            margin: 0;
         }
 
             footer > .social > ul > li {
@@ -469,8 +470,20 @@ footer {
                     footer > .social > ul > li > a > i {
                     }
 
-        footer > .social > .lienhe {
+        footer > .social > div {
+            height: 100%;
+            font-size: 1.1em;
+            margin: 0.2em 3em 0 0;
         }
+
+            footer > .social > div > p {
+                float: left;
+                margin: 0 0.5em 0 0;
+            }
+
+            footer > .social > div > a {
+                margin: 0;
+            }
 
 /*Giao diện cho màn hình lớn*/
 @media (min-width: 1400px) {
@@ -996,4 +1009,9 @@ footer {
         footer > .footer > .menu {
             padding: 0em 2em;
         }
+
+    footer > .social > div {
+        margin: 0.5em 0 0 2.5em;
+        float: left !important;
+    }
 }

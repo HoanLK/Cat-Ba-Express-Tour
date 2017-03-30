@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Cát Bà Express Tour";
+    ViewBag.Title = "Cát Bà mystery";
 }
 
 <!--Trang chủ-->
@@ -26,7 +26,8 @@
                         </div>
                         <div class="line">
                             @*<p class="thanhpho">Grand turkey</p>*@
-                            <p class="giatien">{{value.price | number:0}} vnđ</p>
+                            <p class="giatien" ng-hide="value.price.length > 0">{{value.price | number:0}} vnđ</p>
+                            <p class="giatien" ng-show="value.price.length > 0">Liên hệ</p>
                         </div>
                     </div>
                     <div class="xemthem">
@@ -116,7 +117,7 @@
     <!--Tại sao nên chọn chúng tôi-->
     <article class="taisao col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <!--Tiêu đề-->
-        <p class="tieude">Tại sao nên chọn hoa ban travel</p>
+        <p class="tieude">Tại sao nên chọn Cát Bà mystery</p>
         <!--Các lý do-->
         <div class="caclydo">
             <!--Lý do-->
@@ -129,7 +130,7 @@
                 <div class="text">
                     <p class="tieude">Đối tác an toàn tin cậy</p>
                     <p class="noidung">
-                        Đến với HOA BAN TRAVEL
+                        Đến với CÁT BÀ mystery
                         đảm bảo mọi thủ tục cho
                         quý khách hàng....
                     </p>

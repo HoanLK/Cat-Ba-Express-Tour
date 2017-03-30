@@ -13,10 +13,11 @@
 
             <!--Thông tin-->
             <div class="thongtin col-xs-12">
-                <p class="tentour"><span>Tên tour: </span>{{product.title}}</p>
+                <p class="tentour">{{product.title}}</p>
                 <p><span>Thời gian: </span>{{product.dateNumber}} ngày {{product.nightNumber}} đêm</p>
                 <p><span>Ngày đi: </span>{{product.timeStart | date:'dd-MM-yyyy'}}</p>
-                <p class="gia"><span>Giá: </span>{{product.price | number:0}} vnđ</p>
+                <p class="gia" ng-show="product.price > 0"><span>Giá: </span>{{product.price | number:0}} vnđ</p>
+                <p class="gia" ng-hide="product.price > 0"><span>Giá: </span>Liên hệ</p>
             </div>
         </div>
 

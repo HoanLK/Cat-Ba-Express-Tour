@@ -1,18 +1,41 @@
 ﻿frontApp.controller("homeController", ['$scope', '$http', '$window', 'CategoryProduct', function ($scope, $http, $window, CategoryProduct) {
-    $scope.spMois = [];
+    //$scope.spMois = [];
     $scope.products = [];
     $scope.diaDiemDeps = [];
+    $scope.categoryProducts = [];
 
     //Lấy tất cả danh mục
-    $http.get('/API/CategoryProductsAPI?att=idCategoryParent&&value=' + $scope.idCategoryProduct)
-       .success(function (data) {
-           $scope.categoryProducts = data;
-       });
+    //Lấy tất cả danh mục
+    $http.get('/API/CategoryProductsAPI?att=Home&&value=' + 1)
+        .success(function (categoryProducts) {
+            $scope.categoryProducts = categoryProducts;
 
-    $http.get('/API/ProductsAPI?att=spMoi&&value=' + 1)
-       .success(function (data) {
-           $scope.spMois = data;
-       });
+            angular.forEach($scope.categoryProducts, function (value, index) {
+                //Hiện thị sản phẩm mới ở Menu
+                $http.get('/API/ProductsAPI?att=spMoi&&value=' + value.idCategory)
+                    .success(function (products) {
+                        $scope.categoryProducts[index].new4Products = angular.copy(products);
+                    });
+
+                //Hiển thị sản phẩm nổi bật ở từng danh mục
+                //$http.get('/Products/Get4FeatureByCategory/' + value.idCategory)
+                //    .success(function (products) {
+
+                //        //Giới hạn ký tự cho Mô tả
+                //        angular.forEach(products, function (valueProduct, indexProduct) {
+                //            valueProduct.description = (valueProduct.description.length > 97) ? CutString(valueProduct.description, 100) : valueProduct.description;
+                //        });
+
+                //        $scope.categoryProducts[index].homeProducts = angular.copy(products);
+                //    });
+
+            });
+        });
+
+    //$http.get('/API/ProductsAPI?att=spMoi&&value=' + 1)
+    //   .success(function (data) {
+    //       $scope.spMois = data;
+    //   });
 
     //Lấy địa điểm đẹp
     $http.get('/API/PostsAPI?att=diaDiemDepHome&&value=7')

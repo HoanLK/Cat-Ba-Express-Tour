@@ -52,7 +52,7 @@ namespace CMS.Areas.Admin.Controllers
             if (att == "spMoi" && att != null && value != null)
             {
                 int idCategoryProduct = int.Parse(value);
-                var model = db.Product.Where(p => p.published == 1).OrderByDescending(p => p.timeModified).Take(6);
+                var model = db.Product.Where(p => p.published == 1 && p.idCategoryProduct == idCategoryProduct).OrderByDescending(p => p.timeModified).Take(6);
 
                 return model;
             }

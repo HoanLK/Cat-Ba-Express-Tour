@@ -52,6 +52,17 @@ namespace CMS.Areas.Admin.Controllers
                 return model;
             }
 
+            if (att == "Home" && att != null && value != null)
+            {
+                int idCategoryProduct = int.Parse(value);
+                var model = db.CategoryProduct.Where(p => p.idCategoryParent == idCategoryProduct && p.idCategory != 14);
+
+                db.Configuration.LazyLoadingEnabled = false;
+                db.Configuration.ProxyCreationEnabled = false;
+
+                return model;
+            }
+
             return cateroryProduct;
         }
 

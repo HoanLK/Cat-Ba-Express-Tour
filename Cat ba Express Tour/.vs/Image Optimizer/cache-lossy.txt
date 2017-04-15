@@ -173,3 +173,6 @@ D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images
 D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-tour-1.png|388665
 D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-tour-2.png|122533
 D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\Miền bắc\avt-trongnuoc-1.png|90754
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\CatBa\avt-trongnuoc-4.png|17200
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\_thumbs\Images\CatBa\banner-bg-3.png|3947
+D:\Project\KNT\Cat-Ba-Express-Tour\Cat ba Express Tour\CMS\Content\Images\images\tour\SAPA Tour\tour-du-lich-sapa-4-ngay-3-dem-tet-am-lich-2017-gia-re.jpg|119814

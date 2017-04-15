@@ -32,6 +32,13 @@
             font-weight: bold;
             font-size: 2em;
             padding: 0 0.5em;
+            text-align:center;
+            display:block;
+            color:#e53935;
+        }
+
+        .trangchu > .tourmoi > .tieude:hover {
+            color:#b71c1c;
         }
 
         /*Danh sách các tour*/

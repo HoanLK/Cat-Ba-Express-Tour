@@ -4,10 +4,10 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Project\\KNT\\Cat-Ba-Express-Tour\\Cat\ ba\ Express\ Tour\\CMS\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Project\\KNT\\Cat-Ba-Express-Tour\\Cat\ ba\ Express\ Tour\\CMS\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="CMS-Web.config Connection String" description="" value="data source=DELL\SQL2012;initial catalog=smarttop_CatBa;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+  <parameter name="CMS-Web.config Connection String" description="" value="data source=DELL1\SQL2014;initial catalog=catbamysteryData;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\Project\\KNT\\Cat-Ba-Express-Tour\\Cat\ ba\ Express\ Tour\\CMS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CMS']/@connectionString" />
   </parameter>
-  <parameter name="HoaBanTravelEntities-Web.config Connection String" description="" value="metadata=res://*/Models.HoaBanTravel.csdl|res://*/Models.HoaBanTravel.ssdl|res://*/Models.HoaBanTravel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DELL\SQL2012;initial catalog=smarttop_CatBa;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+  <parameter name="HoaBanTravelEntities-Web.config Connection String" description="" value="metadata=res://*/Models.HoaBanTravel.csdl|res://*/Models.HoaBanTravel.ssdl|res://*/Models.HoaBanTravel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DELL1\SQL2014;initial catalog=catbamysteryData;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\Project\\KNT\\Cat-Ba-Express-Tour\\Cat\ ba\ Express\ Tour\\CMS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HoaBanTravelEntities']/@connectionString" />
   </parameter>
 </parameters>

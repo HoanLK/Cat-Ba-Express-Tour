@@ -55,7 +55,7 @@ namespace CMS.Areas.Admin.Controllers
             if (att == "Home" && att != null && value != null)
             {
                 int idCategoryProduct = int.Parse(value);
-                var model = db.CategoryProduct.Where(p => p.idCategoryParent == idCategoryProduct && p.idCategory != 14);
+                var model = db.CategoryProduct.Where(p => p.idCategoryParent == idCategoryProduct);
 
                 db.Configuration.LazyLoadingEnabled = false;
                 db.Configuration.ProxyCreationEnabled = false;
